@@ -1,0 +1,16 @@
+.box_one {
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4%;
+    color: black;
+}
+
+.centerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}
