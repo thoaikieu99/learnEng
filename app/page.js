@@ -5,9 +5,8 @@ export default function Home() {
     <div>
       <main>
         <p>WELCOME HOME</p>
-        <p>
-          <Link href="/new-word">Learn Vocabulary</Link>
-        </p>
+        <Link href="/new-word">Learn Vocabulary</Link>
+        <p></p>
       </main>
     </div>
   );
