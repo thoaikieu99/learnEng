@@ -1,11 +1,11 @@
 import { Suspense } from "react";
-import Days from "../component/days";
 import classes from "./loading.module.css";
-import { getWords } from "@/lib/meals";
+import { getDayNewWords } from "@/lib/meals";
+import DayWordGrid from "../component/dayWord/dayWord-grid";
 
-async function Words() {
-  const words = await getWords();
-  return <Days words={words} />;
+async function DayNewWords() {
+  const daysWord = await getDayNewWords();
+  return <DayWordGrid daysWord={daysWord} />;
 }
 
 export default function NewWord() {
@@ -13,7 +13,7 @@ export default function NewWord() {
     <main>
       <h1>New Words</h1>
       <Suspense fallback={<p className={classes.loading}>Fetching data...</p>}>
-        <Words />+
+        <DayNewWords />+
       </Suspense>
     </main>
   );

@@ -3,9 +3,39 @@ const db = sql("words.db");
 
 const dummyMeals = [
   {
-    word: "abandon",
-    meaning: "Bo, tu bo",
+    word: "abandon1",
+    meaning: "Bo, tu bo1",
     day: 1,
+  },
+  {
+    word: "abandon2",
+    meaning: "Bo, tu bo2",
+    day: 1,
+  },
+  {
+    word: "abandon3",
+    meaning: "Bo, tu bo3",
+    day: 1,
+  },
+  {
+    word: "abandon4",
+    meaning: "Bo, tu bo4",
+    day: 2,
+  },
+  {
+    word: "abandon5",
+    meaning: "Bo, tu bo5",
+    day: 2,
+  },
+  {
+    word: "abandon6",
+    meaning: "Bo, tu bo6",
+    day: 2,
+  },
+  {
+    word: "abandon7",
+    meaning: "Bo, tu bo7",
+    day: 2,
   },
 ];
 

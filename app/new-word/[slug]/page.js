@@ -1,11 +1,17 @@
+import { getNewWords } from "@/lib/meals";
 import classes from "./vocabulary.module.css";
+import { notFound } from "next/navigation";
 
 export default async function WordOneDay({ params }) {
   const { slug } = await params;
   const day = slug.split("-");
-  console.log(+day[1]);
   if (isNaN(+day[1])) {
-    return 1;
+    notFound();
+  }
+
+  async function KeyWords() {
+    const newWords = await getNewWords();
+    return <DayWordGrid daysWord={newWords} />;
   }
 
   return (
