@@ -13,7 +13,7 @@ export default function NewWord() {
     <main>
       <h1>New Words</h1>
       <Suspense fallback={<p className={classes.loading}>Fetching data...</p>}>
-        <DayNewWords />+
+        <DayNewWords />
       </Suspense>
     </main>
   );

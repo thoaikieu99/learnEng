@@ -26,7 +26,7 @@ export default async function WordOneDay({ params }) {
         <Suspense
           fallback={<p className={classes.loading}>Loading new word...</p>}
         >
-          <KeyWords />+
+          <KeyWords />
         </Suspense>
       </div>
     </main>
