@@ -43,12 +43,12 @@ const dummyMeals = [
   },
   {
     word: "absolute",
-    meaning: " tuy\u1ec7t \u0111\u1ed1i, ho\u00e0n to\u00e0n\r\n",
+    meaning: " tuy\u1ec7t \u0111\u1ed1i, ho\u00e0n to\u00e0n\r (adj)\n",
     day: 1,
   },
   {
     word: "absolutely",
-    meaning: " tuy\u1ec7t \u0111\u1ed1i, ho\u00e0n to\u00e0n\r\n",
+    meaning: " tuy\u1ec7t \u0111\u1ed1i, ho\u00e0n to\u00e0n\r (adv)\n",
     day: 1,
   },
   {
